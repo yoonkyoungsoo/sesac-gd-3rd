@@ -1,3 +1,2 @@
 abcdef
-dsfz
-dddddd
+너무 어렵다.
