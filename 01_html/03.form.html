@@ -143,5 +143,54 @@
       rows="10"
       placeholder="내용을 입력해주세요."
     ></textarea>
+
+    <select name="fruit">
+      <optgroup label="red">
+        <option value="apple">사과</option>
+        <option value="strawberry">딸기</option>
+        <option value="cherry">체리</option>
+      </optgroup>
+      <optgroup label="other">
+        <option value="banana">바나나</option>
+        <option value="orange">오렌지</option>
+        <option value="kiwi">키위</option>
+      </optgroup>
+    </select>
+
+    <h3>제출용 폼 만들기 실습</h3>
+    <h5>설문조사</h5>
+    이름:<input type="text" />
+    <br />
+
+    이메일:<input type="email" placeholder="love@example.com" />
+    <h5>나이</h5>
+    <input type="radio" name="radio" id="age" />
+    <label for="radio">10대</label>
+    <input type="radio" name="radio" id="age2" />
+    <label for="radio">20대</label>
+    <input type="radio" name="radio" id="age3" />
+    <label for="radio">30대</label>
+    <input type="radio" name="radio" id="age4" />
+    <label for="radio">40대</label>
+
+    <h5>원하는 강의(복수응답 가능합니다.)</h5>
+    <input type="checkbox" name="age" id="hi" />
+    <label for="checkbox">html</label>
+    <input type="checkbox" name="age" id="hi2" />
+    <label for="checkbox">Javascript</label>
+    <input type="checkbox" name="age" id="hi3" />
+    <label for="checkbox">css</label>
+    <br />
+    <label for="textarea"></label>
+    <textarea
+      id="textarea"
+      cols="130"
+      rows="10"
+      placeholder="졸려요 "
+    ></textarea>
+
+    <input type="button" value="전송" />
+
+    <br />
   </body>
 </html>
