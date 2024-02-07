@@ -1,0 +1,32 @@
+.page {
+  background: yellowgreen;
+}
+
+.slick {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.slick td {
+  border: none;
+  padding: 10px;
+  font-size: 10px;
+}
+td:nth-child(1),
+th:nth-child(1) {
+  color: red;
+}
+td:nth-last-child(1),
+th:nth-last-child(1) {
+  color: blue;
+}
+h3 {
+  color: green;
+  text-align: center;
+}
+td {
+  text-align: right;
+}
+.red {
+  color: red;
+}

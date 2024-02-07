@@ -1,0 +1,49 @@
+/* slick-homework.css */
+
+.page {
+  background: yellowgreen;
+  height: 100%;
+}
+
+.slick {
+  border-collapse: collapse; /* 테두리를 겹치도록 설정합니다. */
+}
+
+.slick td {
+  border: none; /* 모든 셀의 테두리를 제거합니다. */
+  padding: 10px; /* 셀 안의 내용과 테두리 사이의 간격을 설정합니다. */
+  font-size: 10px;
+}
+
+/* 숫자 9, 10, 11, 12를 빨간색으로 변경 */
+.slick td:nth-child(5),
+.slick td:nth-child(6),
+.slick td:nth-child(7),
+.slick td:nth-child(8),
+.slick td:nth-child(13),
+.slick td:nth-child(14),
+.slick td:nth-child(15),
+.slick td:nth-child(16) {
+  color: red;
+}
+
+/* 숫자 15, 16, 22, 23, 29를 검정색으로 변경 */
+.slick td:nth-child(15),
+.slick td:nth-child(16),
+.slick td:nth-child(22),
+.slick td:nth-child(23),
+.slick td:nth-child(29) {
+  color: black;
+}
+
+/* 테이블의 첫 번째 열 (요일) 빨간색으로 변경 */
+th:nth-child(1),
+td:nth-child(1) {
+  color: red;
+}
+
+/* 테이블의 마지막 열 (토요일) 파란색으로 변경 */
+th:nth-last-child(1),
+td:nth-last-child(1) {
+  color: blue;
+}
