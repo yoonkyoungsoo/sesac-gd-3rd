@@ -1,0 +1,38 @@
+body {
+  width: auto;
+  height: 2000px;
+  background-color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.good {
+  width: auto;
+  height: 1000px;
+  background-color: yellow;
+}
+.fixed-tab {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  background-color: pink;
+  border: 2px solid black;
+}
+li {
+  display: inline-block;
+  padding: 20px;
+}
+.top-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.product-info {
+  width: auto;
+  height: 200px;
+}
+.top-btn {
+  display: inline-block;
+  background-color: aquamarine;
+  border-radius: 50px 50px;
+}

@@ -1,0 +1,9 @@
+.boxman {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  display: inline-block;
+}
+.boxman:hover {
+  visibility: hidden;
+}

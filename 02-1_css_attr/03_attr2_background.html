@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>background</title>
+    <!-- 그라데이션 속성 -->
+    <style>
+      div {
+        width: 300px;
+        height: 200px;
+        margin-bottom: 30px;
+      }
+      .grad-1 {
+        background: linear-gradient(grey, tomato);
+      }
+      .grad-2 {
+        background: linear-gradient(90deg, grey, tomato);
+      }
+      .grad-3 {
+        background: linear-gradient(90deg, grey, 75%, tomato);
+      }
+      .grad-4 {
+        background: linear-gradient(grey, tomato, gold);
+      }
+      .prac1,
+      .prac2,
+      .prac3 {
+        background-image: url(https://item.kakaocdn.net/do/d84248170c2c52303db27306a00fb861f604e7b0e6900f9ac53a43965300eb9a);
+        width: 800px;
+        height: 500px;
+        background-color: skyblue;
+        margin-bottom: 10px;
+      }
+      .prac1 {
+        background-repeat: repeat-x;
+        background-position: center;
+      }
+      .prac2 {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 100px 30px;
+      }
+      .prac3 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -100px;
+      }
+    </style>
+    <link rel="stylesheet" href="./03_attr2_background.css" />
+  </head>
+  <body>
+    <div class="grad-1"></div>
+    <div class="grad-2"></div>
+    <div class="grad-3"></div>
+    <div class="grad-4"></div>
+    <br /><br />
+    <hr />
+    <div class="background box"></div>
+    <div class="background-image box"></div>
+    <h2>background 실습</h2>
+    <div class="prac1"></div>
+    <div class="prac2"></div>
+    <div class="prac3"></div>
+  </body>
+</html>
