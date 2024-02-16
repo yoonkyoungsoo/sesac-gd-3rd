@@ -21,11 +21,18 @@ body {
 li {
   display: inline-block;
   padding: 20px;
+  height: 100%;
 }
 .top-btn {
   position: fixed;
   bottom: 10px;
   right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: lightgreen;
+  text-align: center;
+  line-height: 50px;
 }
 .product-info {
   width: auto;
@@ -35,4 +42,18 @@ li {
   display: inline-block;
   background-color: aquamarine;
   border-radius: 50px 50px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  /* list-style: none; */
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.fixed-tab ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
