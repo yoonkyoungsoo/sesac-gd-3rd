@@ -21,6 +21,7 @@
 //02_module02.js 사용
 import { animals, showAnimals, addAnimal } from "./02_module02.js";
 
+
 showAnimals();
 console.log(addAnimal("horse"));
 
