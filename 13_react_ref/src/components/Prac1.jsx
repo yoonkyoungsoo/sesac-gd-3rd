@@ -118,6 +118,8 @@ export default function Prac1() {
 
   return (
     <div>
+      {/* 사용자의 이름을 입력받는 input */}
+      {/* value 속성으로 inputUser state를 가지고 있음 */}
       <input
         type="text"
         name="user"
@@ -125,7 +127,8 @@ export default function Prac1() {
         value={inputUser}
         onChange={onChangeUser}
       />
-
+      {/* 사용자의 이메일을 입력받는 input */}
+      {/* value 속성으로 inputUser state를 가지고 있음 */}
       <input
         type="text"
         name="email"
