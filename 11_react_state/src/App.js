@@ -3,6 +3,31 @@ import ClassProps from "./components/ClassProps";
 import "./App.css";
 import ProductItem from "./components/ProductItem";
 import ProductContainer from "./components/ProductContainer";
+import Prac1 from "./components/prac1";
+import CharactorState from "./components/CharactorState";
+import { useState } from "react";
+
+function App() {
+  const [show, setShow] = useState(false);
+  return (
+    <div className="App">
+      <ClassState />
+      <FuncState />
+      <Prac1 />
+      <button>모달 보이기</button>
+      <CharactorState />
+
+      {show && <Modal msg="확인하시겠습니까?" setShow={setShow} />}
+
+      {show && (
+        <Modal msg="확인하시겠습니까?" isInput={true} setShow={setShow} />
+      )}
+      {show && (
+        <Modal msg="확인하시겠습니까?" isCancelBtn={true} setShow={setShow} />
+      )}
+    </div>
+  );
+}
 
 function App() {
   const sayHi = () => {

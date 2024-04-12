@@ -1,20 +1,18 @@
 // 1. props 매개변수
 
-/*
 export default function FuncProps(props) {
   // 부모 요소에서 props 전달한 데이터가 props 내부에 객체 형태로 저장
   console.log(props);
 
   return (
     <>
-      <h1>함수형 컴포넌트에서 props 사용</h1>
+      <h1 className="title">함수형 컴포넌트에서 props 사용</h1>
       <div>전달받은 props 객체를 점 접근법으로 바로 접근해 사용</div>
       <div>weather props로 전달받은 데이터 : {props.weather}</div>
       <div>feeling props로 전달받은 데이터 : {props.feeling}</div>
     </>
   );
 }
-*/
 
 // ---------------------------------------------------------------
 
@@ -118,6 +116,8 @@ export default function FuncProps(props) {
 */
 
 // 많은 요소 전달
+/*
 export default function FuncProps(props) {
   return <>{props.children}</>;
 }
+*/

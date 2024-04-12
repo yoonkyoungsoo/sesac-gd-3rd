@@ -15,7 +15,7 @@ export default class ClassProps extends Component {
 
     return (
       <>
-        <h1>클래스형 컴포넌트에서의 props 사용</h1>
+        <h1 className="title">클래스형 컴포넌트에서의 props 사용</h1>
         <div>
           주문하신 음료는 {this.props.drink}이고, 결재는 {this.props.payment}{" "}
           맞으실까요?
