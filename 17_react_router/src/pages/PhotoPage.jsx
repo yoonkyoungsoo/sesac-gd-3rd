@@ -1,21 +1,18 @@
-import React from "react";
-import { useState } from "react";
-import { getData } from "../utils/getData";
-import { useEffect } from "react";
+import React from 'react';
+import { useState, useEffect } from 'react';
+import { getData } from '../utils/getData';
 
 export default function PhotoPage() {
   const [photos, setPhotos] = useState([]);
   // const getPhotos = () => {
-  //   fetch(
-  //     "https://jsonplaceholder.typicode.com/photos "
-  //       .then((response) => response.json())
-  //       .then((data) => setPhotos(data))
-  //   );
+  //   fetch('https://jsonplaceholder.typicode.com/photos')
+  //     .then((response) => response.json())
+  //     .then((data) => setPhotos(data));
   // };
 
   useEffect(() => {
     // getPhotos();
-    getData("https://jsonplaceholder.typicode.com/photos", setPhotos);
+    getData('https://jsonplaceholder.typicode.com/photos', setPhotos);
   }, []);
 
   return (
@@ -24,7 +21,8 @@ export default function PhotoPage() {
       {photos.map((photo) => {
         return (
           <div key={photo.id}>
-            <img src={photo.url} alt={photo.title}></img>
+            <div>{photo.title}</div>
+            <img src={photo.url} alt='sample' />
           </div>
         );
       })}
